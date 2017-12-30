@@ -20,4 +20,8 @@ class UI {
     this.dewpoint.textContent = `Dew Point: ${weather.dewpoint_string}`;
     this.wind.textContent = `Wind: ${weather.wind_string}`;
   }
+
+  error(e) {
+    console.log(e);
+  }
 }
